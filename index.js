@@ -39,7 +39,7 @@ client.on('message', (message) => {
 
 
 client.on('message', (message) => {
-        if (message.content == 'answer1'){
+        if (message.content == '?answer1'){
                 message.member.roles.add(Test_2)
                 message.member.roles.remove(Test_1)
         }
