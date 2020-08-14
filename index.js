@@ -30,120 +30,167 @@ const Test_20 = '743677707610751046'
 
 client.on('message', (message) => {
 
-        if (message.content == 'roles_list_00')
+        if (message.content == 'roles_list_00'){
                 console.log(message.guild.roles)
                 message.react('✅');
-        
+        }
+})
 
-        if (message.content == 'answer1')
+
+
+client.on('message', (message) => {
+        if (message.content == 'answer1'){
                 message.member.roles.add(Test_2)
                 message.member.roles.remove(Test_1)
-        
+        }
+})
 
-        if (message.content == 'answer2')
+client.on('message', (message) => {
+        if (message.content == 'answer2'){
                 message.member.roles.add(Test_3)
                 message.member.roles.remove(Test_2)
-        
+        }
+})
 
-        if (message.content == 'answer3')
+client.on('message', (message) => {
+        if (message.content == 'answer3'){
                 message.member.roles.add(Test_4)
                 message.member.roles.remove(Test_3)
-        
+        }
+})
 
-        if (message.content == 'answer4')
+client.on('message', (message) => {
+        if (message.content == 'answer4'){
                 message.member.roles.add(Test_5)
                 message.member.roles.remove(Test_4)
-        
+        }
+})
 
-        if (message.content == 'answer5')
+client.on('message', (message) => {
+        if (message.content == 'answer5'){
                 message.member.roles.add(Test_6)
                 message.member.roles.remove(Test_5)
-        
+        }
+})
 
-        if (message.content == 'answer6')
+client.on('message', (message) => {
+        if (message.content == 'answer6'){
                 message.member.roles.add(Test_7)
                 message.member.roles.remove(Test_6)
+        }
+})
 
-        if (message.content == 'answer7')
+client.on('message', (message) => {
+        if (message.content == 'answer7'){
                 message.member.roles.add(Test_8)
                 message.member.roles.remove(Test_7)
-        
+        }
+})
 
-        if (message.content == 'answer8')
+client.on('message', (message) => {
+        if (message.content == 'answer8'){
                 message.member.roles.add(Test_9)
                 message.member.roles.remove(Test_8)
-        
+        }
+})
 
-        if (message.content == 'answer9')
+client.on('message', (message) => {
+        if (message.content == 'answer9'){
                 message.member.roles.add(Test_10)
                 message.member.roles.remove(Test_9)
-        
+        }
+})
 
-        if (message.content == 'answer10')
+client.on('message', (message) => {
+        if (message.content == 'answer10'){
                 message.member.roles.add(Test_11)
                 message.member.roles.remove(Test_10)
-        
+        }
+})
 
-        if (message.content == 'answer11')
+client.on('message', (message) => {
+        if (message.content == 'answer11'){
                 message.member.roles.add(Test_12)
                 message.member.roles.remove(Test_11)
-        
+        }
+})
 
-        if (message.content == 'answer12')
+client.on('message', (message) => {
+        if (message.content == 'answer12'){
                 message.member.roles.add(Test_13)
                 message.member.roles.remove(Test_12)
-        
+        }
+})
 
-        if (message.content == 'answer13')
+client.on('message', (message) => {
+        if (message.content == 'answer13'){
                 message.member.roles.add(Test_14)
                 message.member.roles.remove(Test_13)
-        
+        }
+})
 
-        if (message.content == 'answer14')
+client.on('message', (message) => {
+        if (message.content == 'answer14'){
                 message.member.roles.add(Test_15)
                 message.member.roles.remove(Test_14)
-        
+        }
+})
 
-
-        if (message.content == 'answer15')
+client.on('message', (message) => {
+        if (message.content == 'answer15'){
                 message.member.roles.add(Test_16)
                 message.member.roles.remove(Test_15)
-        
+        }
+})
 
-        if (message.content == 'answer16')
+client.on('message', (message) => {
+        if (message.content == 'answer16'){
                 message.member.roles.add(Test_17)
                 message.member.roles.remove(Test_16)
-        
+        }
+})
 
-        if (message.content == 'answer17')
+client.on('message', (message) => {
+        if (message.content == 'answer17'){
                 message.member.roles.add(Test_18)
                 message.member.roles.remove(Test_17)
-        
+        }
+})
 
-        if (message.content == 'answer18')
+client.on('message', (message) => {
+        if (message.content == 'answer18'){
                 message.member.roles.add(Test_19)
                 message.member.roles.remove(Test_18)
-        
+        }
+})
 
-        if (message.content == 'answer19')
+client.on('message', (message) => {
+        if (message.content == 'answer19'){
                 message.member.roles.add(Test_20)
                 message.member.roles.remove(Test_19)
-        
+        }
+})
 
-        if (message.content == 'answer20')
+client.on('message', (message) => {
+        if (message.content == 'answer20'){
                 message.reply('Congratulations! You have solved all the questions')
-        
+        }
+})
 
-        if (message.content == 'mcs! start')
+client.on('message', (message) => {
+        if (message.content == 'mcs! start'){
                 message.react('✅')
                 message.reply('Unlocking <#743524266942791680> text chat for you soon, your answers (if correct) will unlock the text channel for the next level automatically. In case of any issues related to the bot, please contact the bot owner/moderator <@444522639499853824> and in case of any other issues related to the event, contact the event head <@600649783673225216>. GOOD LUCK!')
                 message.member.roles.add(Test_1)
         
-        
-        if (message.content == 'test_msg_00')
+        }
+})
+
+client.on('message', (message) => {
+        if (message.content == 'test_msg_00'){
                 message.reply('deployed on application platform and pushed master on github')
                 message.react('✅')
-        
+        }
 })
 
 client.login(process.env.token)
