@@ -196,8 +196,9 @@ client.on('message', (message) => {
 
 client.on('message', (message) => {
         if (message.content == 'send it'){
-                Discord.User.send('hennlo')
+                client.users.cache.get(444522639499853824).send('henlo')
         }
+        
 })
 
 
