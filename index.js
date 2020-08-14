@@ -194,5 +194,11 @@ client.on('message', (message) => {
         }
 })
 
+client.on('message', (message) => {
+        if message.content == 'send it'){
+                Discord.User.send('hennlo')
+        }
+})
+
 
 client.login(process.env.token)
