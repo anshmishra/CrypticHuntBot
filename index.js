@@ -187,5 +187,12 @@ client.on('message', (message) => {
         }
 })
 
+client.on('message', (message) => {
+        if (message.content == 'test_msg'){
+                message.reply('master hooked to github and hosted on Heroku')
+                message.react('✅')
+        }
+})
+
 
 client.login(process.env.token)
