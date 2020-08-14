@@ -196,7 +196,7 @@ client.on('message', (message) => {
 
 client.on('message', (message) => {
         if (message.content == 'send it'){
-                client.users.cache.get(444522639499853824).send('henlo')
+                message.channel.type == ('dm') + message.author.sendMessage('yo')
         }
         
 })
