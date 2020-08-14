@@ -188,8 +188,8 @@ client.on('message', (message) => {
 })
 
 client.on('message', (message) => {
-        if (message.content == 'test_msg'){
-                message.reply('working')
+        if (message.content == 'test_msg_00'){
+                message.reply('deployed on application platform and pushed master on github')
                 message.react('✅')
         }
 })
