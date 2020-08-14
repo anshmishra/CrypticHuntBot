@@ -181,7 +181,7 @@ client.on('message', (message) => {
         if (message.content == 'mcs! start'){
                 message.react('👍')
                 message.react('✅')
-                message.reply('Unlocking <#743524266942791680> text chat for you soon, your answers (if correct) will unlock the text channel for the next level automatically. In case of any issues related to the bot, please contact <@444522639499853824> and in case of any other issues related to the event, contact the event head <@600649783673225216>. GOOD LUCK!')
+                message.reply('Unlocking <#743524266942791680> text chat for you soon, your answers (if correct) will unlock the text channel for the next level automatically. In case of any issues related to the bot, please contact the bot owner/moderator <@444522639499853824> and in case of any other issues related to the event, contact the event head <@600649783673225216>. GOOD LUCK!')
                 message.member.roles.add(Test_1)
         
         }
