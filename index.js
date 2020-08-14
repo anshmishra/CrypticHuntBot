@@ -30,7 +30,7 @@ const Test_20 = '743677707610751046'
 
 client.on('message', (message) => {
 
-        if (message.content == 'roles_list'){
+        if (message.content == 'roles_list_00'){
                 console.log(message.guild.roles)
                 message.react('✅');
         }
