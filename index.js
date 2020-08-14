@@ -194,12 +194,4 @@ client.on('message', (message) => {
         }
 })
 
-client.on('message', (message) => {
-        if (message.content == 'send it'){
-                message.channel.type == ('dm') + message.author.sendMessage('yo')
-        }
-        
-})
-
-
 client.login(process.env.token)
