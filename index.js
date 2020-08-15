@@ -7,6 +7,7 @@ client.on('ready', () => {
         console.log('Bot is now connected');
 });
 
+const Test_0 ='744156619239194746'
 const Test_1 = '743522743756259450'
 const Test_2 = '743522788995760230'
 const Test_3 = '743522827457527868'
@@ -184,6 +185,7 @@ client.on('message', (message) => {
                 message.react('✅')
                 message.reply('Unlocking <#743524266942791680> text chat for you soon, your answers (if correct) will unlock the text channel for the next level automatically. In case of any issues related to the bot, please contact the bot owner/moderator <@444522639499853824> and in case of any other issues related to the event, contact the event head <@600649783673225216>. GOOD LUCK!')
                 message.member.roles.add(Test_1)
+                message.member.roles.remove(Test_0)
         
         }
 })
