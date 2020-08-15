@@ -39,140 +39,140 @@ client.on('message', (message) => {
 
 
 client.on('message', (message) => {
-        if (message.content == '?answer1'){
+        if (message.content == '?zeusx27'){
                 message.member.roles.add(Test_2)
                 message.member.roles.remove(Test_1)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer2'){
+        if (message.content == '?friends'){
                 message.member.roles.add(Test_3)
                 message.member.roles.remove(Test_2)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer3'){
+        if (message.content == '?shaolintemple'){
                 message.member.roles.add(Test_4)
                 message.member.roles.remove(Test_3)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer4'){
+        if (message.content == '?dividend'){
                 message.member.roles.add(Test_5)
                 message.member.roles.remove(Test_4)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer5'){
+        if (message.content == '?itziar'){
                 message.member.roles.add(Test_6)
                 message.member.roles.remove(Test_5)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer6'){
+        if (message.content == '?peverellbrothers'){
                 message.member.roles.add(Test_7)
                 message.member.roles.remove(Test_6)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer7'){
+        if (message.content == '?illuminati'){
                 message.member.roles.add(Test_8)
                 message.member.roles.remove(Test_7)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer8'){
+        if (message.content == '?bonsai'){
                 message.member.roles.add(Test_9)
                 message.member.roles.remove(Test_8)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer9'){
+        if (message.content == '?transubstantiation'){
                 message.member.roles.add(Test_10)
                 message.member.roles.remove(Test_9)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer10'){
+        if (message.content == '?cartoons'){
                 message.member.roles.add(Test_11)
                 message.member.roles.remove(Test_10)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer11'){
+        if (message.content == '?nano'){
                 message.member.roles.add(Test_12)
                 message.member.roles.remove(Test_11)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer12'){
+        if (message.content == '?blackdread'){
                 message.member.roles.add(Test_13)
                 message.member.roles.remove(Test_12)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer13'){
+        if (message.content == '?sun'){
                 message.member.roles.add(Test_14)
                 message.member.roles.remove(Test_13)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer14'){
+        if (message.content == '?dissimulation'){
                 message.member.roles.add(Test_15)
                 message.member.roles.remove(Test_14)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer15'){
+        if (message.content == '?dyno'){
                 message.member.roles.add(Test_16)
                 message.member.roles.remove(Test_15)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer16'){
+        if (message.content == '?album'){
                 message.member.roles.add(Test_17)
                 message.member.roles.remove(Test_16)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer17'){
+        if (message.content == '?discord'){
                 message.member.roles.add(Test_18)
                 message.member.roles.remove(Test_17)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer18'){
+        if (message.content == '?hamleys'){
                 message.member.roles.add(Test_19)
                 message.member.roles.remove(Test_18)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer19'){
+        if (message.content == '?thoughtexperiment'){
                 message.member.roles.add(Test_20)
                 message.member.roles.remove(Test_19)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == 'answer20'){
+        if (message.content == '?zerodivisionerror'){
                 message.reply('Congratulations! You have solved all the questions')
         }
 })
