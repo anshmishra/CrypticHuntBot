@@ -27,6 +27,7 @@ const Test_17 = '743677643320197141'
 const Test_18 = '743677664237453353'
 const Test_19 = '743677684638548041'
 const Test_20 = '743677707610751046'
+const Test_Final = '744155406485684235'
 
 client.on('message', (message) => {
 
@@ -173,7 +174,8 @@ client.on('message', (message) => {
 
 client.on('message', (message) => {
         if (message.content == '?zerodivisionerror'){
-                message.reply('Congratulations! You have solved all the questions')
+                message.member.roles.add(Test_Final)
+                message.member.roles.remove(Test_20)
         }
 })
 
