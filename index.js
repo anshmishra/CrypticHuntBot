@@ -69,7 +69,7 @@ client.on('message', (message) => {
 })
 
 client.on('message', (message) => {
-        if (message.content == '?itziar'){
+        if (message.content == '?raquel'){
                 message.member.roles.add(Test_6)
                 message.member.roles.remove(Test_5)
         }
