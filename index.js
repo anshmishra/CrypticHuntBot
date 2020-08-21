@@ -41,14 +41,14 @@ client.on('message', (message) => {
 
 
 client.on('message', (message) => {
-        if (message.content == '?zeusx27'){
+        if (message.content == '?answer1'){
                 message.member.roles.add(Test_2)
                 message.member.roles.remove(Test_1)
         }
 })
 
 client.on('message', (message) => {
-        if (message.content == '?friends'){
+        if (message.content == '?answer2'){
                 message.member.roles.add(Test_3)
                 message.member.roles.remove(Test_2)
         }
