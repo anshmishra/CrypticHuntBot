@@ -167,7 +167,7 @@ client.on('message', (message) => {
 })
 
 client.on('message', (message) => {
-        if (message.content == '?thoughtexperiment'){
+        if (message.content == '?paradox'){
                 message.member.roles.add(Test_20)
                 message.member.roles.remove(Test_19)
         }
